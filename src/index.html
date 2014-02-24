@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<script src="/appspresso/appspresso.js"></script>
+		<script>
+			//activate ax.log(), comment out when you release app
+			ax.runMode = ax.MODE_DEBUG;
+			ax.log("Hello World");
+		</script>
+		<script src="js/jquery-1.6.4.js"></script>
+        <script src="js/jquery.mobile-1.1.0.js"></script>
+        <link href="css/jquery.mobile.structure-1.1.0.css" rel="stylesheet">
+        <link href="css/jquery.mobile.theme-1.1.0.css" rel="stylesheet">
+	</head>
+	<body>
+		<div data-role="page" id="page1">
+            <div data-role="header">
+                <h1>원혁 자기소개</h1>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <a data-role="button" class="ui-btn-active">자기소개</a>
+                        </li>
+                        <li>
+                            <a data-role="button" href="./2.html">사진</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-role="content">
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h1>프로필</h1>
+                        이름 : 원(元)혁(赫 )<br>
+                        나이 : 28세<br>
+                        신장 : 181cm<br>
+                        체중 : 72kg<br>
+                        출신지역 : 경기도 안양시
+                  
+                   
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
